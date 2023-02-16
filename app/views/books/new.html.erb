@@ -1,2 +1,5 @@
-<h1>Books#new</h1>
-<p>Find me in app/views/books/new.html.erb</p>
+<td> "Title:" <%= book.title %></td>
+<td> "body:" <%= book.body %></td>
+
+<%= link_to"Edit",edit_path(@book.id) %>
+<%= link_to"Back", index_path %>
